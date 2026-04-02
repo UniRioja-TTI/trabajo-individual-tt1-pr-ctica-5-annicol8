@@ -22,7 +22,7 @@ public class ContactoSimService implements InterfazContactoSim {
     private List<Entidad> entidades;
     private final RestClient restClient;
     private static final String USUARIO = "ana";
-    private static final String BASE_URL = "http://localhost:8080";
+    private static final String BASE_URL = "http://servicio-consumible:8080";
 
     public ContactoSimService() {
         this.restClient = RestClient.create(BASE_URL);
